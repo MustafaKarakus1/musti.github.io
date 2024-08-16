@@ -41,7 +41,7 @@ export default function Example() {
               <img 
                 onClick={handleClick}
                 alt="Your Company"
-                src="http://www.runupsports.com/assets/img/logo/logo.svg"
+                src="https://www.runupsports.com/assets/img/logo/logo.svg"
                 className="h-10 w-auto hover:cursor-pointer"
               />
             </div>
