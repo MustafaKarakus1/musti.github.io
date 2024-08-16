@@ -1,6 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, /*Menu, MenuButton, MenuItem, MenuItems*/ } from '@headlessui/react'
 import { Bars3Icon, /* BellIcon,*/ XMarkIcon } from '@heroicons/react/24/outline'
 import { useNavigate } from 'react-router-dom';
+import runlogo from '../Assets/runLogo.jpg';
 
 const navigation = [
   { name: 'Ana Sayfa', href: '/main', current: false },
@@ -41,7 +42,7 @@ export default function Example() {
               <img 
                 onClick={handleClick}
                 alt="Your Company"
-                src="https://www.runupsports.com/assets/img/logo/logo.svg"
+                src={runlogo}
                 className="h-10 w-auto hover:cursor-pointer"
               />
             </div>
